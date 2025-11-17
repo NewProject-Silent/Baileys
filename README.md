@@ -1,14 +1,22 @@
 <h1 align='center'><img alt="Baileys logo" src="https://raw.githubusercontent.com/WhiskeySockets/Baileys/refs/heads/master/Media/logo.png" height="75"/></h1>
 
-<div align='center'>Baileys is a WebSockets-based TypeScript library for interacting with the WhatsApp Web API.</div>
+<div align='center'># Xyroo Bailey
 
+**Xyroo Bailey** adalah versi custom dari Baileys, library WhatsApp Web API untuk Node.js/TypeScript, dikembangkan oleh **Xyroo**.
 
-> [!CAUTION]
-> NOTICE OF BREAKING CHANGE.
-> 
-> As of 7.0.0, multiple breaking changes were introduced into the library.
-> 
-> Please check out https://whiskey.so/migrate-latest for more information.
+### Fitur Utama
+- 🔥 **Fix Connection Errors**: Semua bug dan error koneksi dari versi resmi diperbaiki agar bot tetap stabil.  
+- 🛠 **Support Custom Pairing**: Bisa menggunakan pairing QR custom untuk multi-device setup.  
+- 💻 **Multi-Device Support**: Tetap kompatibel dengan WhatsApp Multi-Device terbaru.  
+- ⚡ **Easy Integration**: Bisa dipakai langsung di project bot WhatsApp / Telegram tanpa konfigurasi ribet.  
+
+### Branding
+Dikembangkan oleh **Xyroo**, dengan fokus pada stabilitas, fleksibilitas pairing, dan kemudahan integrasi.
+
+### Instalasi
+
+```bash
+npm install git+https://github.com/NewProject-Silent/Baileys.git
 
 > [!IMPORTANT]
 > I made a survey for users of the project to ask questions, and provide Baileys valuable insights regarding its users. I will be publishing the results of this form (after filtering) as well so we can study and understand where we need to work.
