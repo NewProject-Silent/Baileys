@@ -24,6 +24,11 @@ console.log(`
 `);
 console.log(chalk.hex('#A020F0')(`Baileys modified by Xyroo`));
 
+const originalLog = console.log;
+
+console.log = (...args) => {
+    originalLog(chalk.hex('#A020F0')('XYROO:'), ...args);
+};
 import makeWASocket from './Socket/index'
 
 export * from '../WAProto/index.js'
